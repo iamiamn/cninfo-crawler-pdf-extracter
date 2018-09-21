@@ -5,8 +5,6 @@
 3. Secondly, I use pdfminer3k package to transform pdf into html and separate paragraphs and tables. 
 4. Finally I use whoosh+jieba to build up a chinese text search engine.
 
-## Main Function Here is :
-
 
 ## Details:
 PROJECT_EXPLANATION_CHN.docx  : Contest definition
