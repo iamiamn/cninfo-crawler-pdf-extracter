@@ -1,19 +1,11 @@
+#Main function for searching key metric in document by using regular expression
+
 from dir.searchingTool import *
 import re,os
 import jieba
 import jieba.analyse
 import jieba.posseg
-# test = {"1":"2、2016年5月20日，顺丰控股股东大会通过决议，批准本次重大资产重组的\n"}
-# string = test["1"]
-#
-# searchKey = u"股东大会"
-# pathName = u"a"
-# parseResults1 = paragraphParser(test, searchKey, pathName)
-# print(result2strDict(parseResults1))
-# print(parseResults1)
-#
-# reResult = re.search(r'股东大会', string)
-# print(reResult)
+
 
 
 def parallelRe(docs, docTitle, spliter, query):
