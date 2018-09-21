@@ -1,6 +1,6 @@
 
 from dir.searchingTool import *
-
+#this is the main function for applying the search Tool in every single pdf files in pdf_store folder
 
 
 
