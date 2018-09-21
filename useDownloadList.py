@@ -1,4 +1,5 @@
-#使用parallel获得的down
+#Use websit list provide from Bloomberg Company to find out the file download address
+#Use failure-tolerent strategy and collect all these fail-analyzed website and analyze again to extract the download address.
 import urllib.request
 import re
 import socket
