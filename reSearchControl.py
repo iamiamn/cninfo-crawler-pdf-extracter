@@ -142,9 +142,9 @@ def rearrangeStr(dictIn):
 if __name__ == '__main__':
     # contentPath = 'Merge0_.txt'
     spliter = re.compile(r'------------\n|。')
-    # querys = [ u'股东大会', u'资产重组', r'[\d\s]+年[\d\s]+月[\d\s]+日']
-    # querys = [ u'董事会', u'资产重组', r'[\d\s]+年[\d\s]+月[\d\s]+日']
-    # querys = [ u'证监会', u'资产重组']
+    # querys = [ u'股东大会', u'资产重组', r'[\d\s]+年[\d\s]+月[\d\s]+日']#testing query
+    # querys = [ u'董事会', u'资产重组', r'[\d\s]+年[\d\s]+月[\d\s]+日']#testing query
+    # querys = [ u'证监会', u'资产重组']#testing query
     querys = [u"交易对方", u"明德控股", u"交易日", u"锁定期"]#检测分号分割情况
     # querys = [u'收购']
 
@@ -160,12 +160,3 @@ if __name__ == '__main__':
         jiebaTag(result, 1)
 
 
-
-
-
-    # 修复所有的text
-    # textStoreDir = 'txtAndXls/'
-    # saveDir = 'fixedTrainingTxt/'
-    # if not os.path.exists(saveDir):
-    #     os.mkdir(saveDir)
-    # fixAllText(textStoreDir, saveDir)
