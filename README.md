@@ -10,8 +10,14 @@
 
 ## Details:
 PROJECT_EXPLANATION_CHN.docx  : Contest definition
+
 useDownloadList.py            : Use PROJECT_EXPLANATION_CHN.docx to extract download List
+
 researchControl.py            : Main function for extracting infromation from document
+
 searchControl.py              : Main function for extracting infromation from document
+
 dir                           : Tool Function Repositary 
+
 fixedTrainingTxt;pdfStores;txtAndXls  : Data storage
+
